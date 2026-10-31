@@ -1,0 +1,26 @@
+BILL BOOK - APK KAISE BANAYE (computer par, 10 minute, free)
+
+1. github.com par free account banao (ya login karo).
+2. "New repository" dabao. Naam: billbook. Public ya Private, dono chalega. Create karo.
+3. Is zip ko computer par extract karo. Phir repository ke page par
+   "uploading an existing file" link dabao, aur extract hui folder ke ANDAR ki
+   saari files aur folders (app, gradle, .github, gradlew, build.gradle ... sab)
+   drag karke chhod do. "Commit changes" dabao.
+   - Agar ".github" folder upload na ho, to "Add file > Create new file" dabao,
+     naam me  .github/workflows/build.yml  likho, aur is zip wali
+     .github/workflows/build.yml file ka text paste karke commit karo.
+4. Repository ke upar "Actions" tab kholo. "Build APK" chalta dikhega
+   (pehli baar 4-6 minute lagte hain). Hara tick aane tak ruko.
+   Na chale to left side me "Build APK" > "Run workflow" dabao.
+5. Us run par click karo. Neeche "Artifacts" me "BillBook-APK" milega. Download karo,
+   zip kholo, andar app-debug.apk hoga.
+6. APK ko phone me bhejo (WhatsApp/Drive/USB). Phone me kholo.
+   "Install unknown apps" ki permission maango to allow karo. Install ho jayega.
+
+APP KI BAATEN
+- Pehli baar shop ka naam aur 4-6 digit ka PIN set hota hai.
+- "Download PDF": PDF phone ke Downloads/BillBook folder me save hota hai.
+- "Send PDF on WhatsApp": PDF WhatsApp me attach hoke khulta hai.
+  Customer ka number daloge to seedha usi ki chat khulti hai.
+- Bills aur PIN isi phone me save rehte hain. App uninstall ya data clear karne par ja sakte hain.
+- Android 10 ya naya phone chahiye.
